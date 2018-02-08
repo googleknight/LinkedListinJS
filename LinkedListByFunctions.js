@@ -14,4 +14,11 @@ Node.prototype.appendInLast = function appendInLast(data) {
   const lastNode = this.getLastNode();
   lastNode.nextNode = newNode;
 };
+Node.prototype.viewData = function viewData() {
+  let head = this;
+  while (head) {
+    console.log(head.data);
+    head = head.nextNode;
+  }
+};
 module.exports = Node;
