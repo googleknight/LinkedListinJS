@@ -1,0 +1,23 @@
+{
+  "name": "LinkedList",
+  "version": "1.0.0",
+  "description": "Linked list implimentation using functions and classes",
+  "main": "index.js",
+  "scripts": {
+    "test": " ./node_modules/.bin/jest",
+    "coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/googleknight/LinkedListinJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/googleknight/LinkedListinJS/issues"
+  },
+  "homepage": "https://github.com/googleknight/LinkedListinJS#readme",
+  "devDependencies": {
+    "jest": "^22.1.4"
+  }
+}
